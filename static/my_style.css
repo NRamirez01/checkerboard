@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vw;
+    width: 20vw;
+    margin: 4% 40% 3% 40%;
+    font-size: 2vw;
+    background-color: black;
+    color: red;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+}
+.lightsquare{
+    background-color: red;
+    width: 4vw;
+    height: 4vw;
+}
+.darksquare {
+    background-color: black;
+}
